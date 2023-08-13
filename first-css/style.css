@@ -1,19 +1,25 @@
+body {
+  background: url('https://i0.hippopx.com/photos/695/722/391/jupiter-sky-space-planet-preview.jpg')no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
 #container {
-  color: #ffffff;
-  width: 200px;
-  text-align: center;
-  border: 5px double #d8ceb7;
   background-color:  rgba(216, 206, 161, 0.349);
+  border: 5px double #d8ceb7;
+  color: #ffffff;
+  text-align: center;
+  width: 200px;
 }
 
 h1 {
-  color:#ffe3af;
-  font-size: 40px;
   border-bottom: 2px ;
+  color:#ffe3af;
+  font-size: 2.7em;
 }
 
 h2 {
-  font-size: 21px;
+  font-size: 1.6em;
 }
 
 ul {
@@ -21,11 +27,10 @@ ul {
   padding-left: 0;
 }
 
-a {
-  color: inherit
+ul li {
+  font-size: 1.2em;
 }
 
-body {
-  background: url('https://i0.hippopx.com/photos/695/722/391/jupiter-sky-space-planet-preview.jpg')no-repeat;
-  background-size: cover;
+a {
+  color: inherit
 }
