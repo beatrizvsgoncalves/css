@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+}
+
+.post-container {
+  width: 70%;
+  height: 100%;
+  margin: 0px auto 0px auto;
+  background-color: #fffafa;
+}
+
+h1 {
+  font-family: 'Montserrat', Verdana, sans-serif;
+}
+
+.post-container .date {
+  font-family: 'Roboto', Courier, sans-serif;
+  color: #008080;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.post-container div.post-content {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: normal; 
+  background-color: #f1ecec8c;
+  border-radius: 0.2em;
+  padding-left: 0.5em;
+}
+
+.post-container .post {
+  padding: 1.5em;
+  margin-left: 1.6em;
+}
+

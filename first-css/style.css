@@ -1,0 +1,31 @@
+#container {
+  color: #ffffff;
+  width: 200px;
+  text-align: center;
+  border: 5px double #d8ceb7;
+  background-color:  rgba(216, 206, 161, 0.349);
+}
+
+h1 {
+  color:#ffe3af;
+  font-size: 40px;
+  border-bottom: 2px ;
+}
+
+h2 {
+  font-size: 21px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  color: inherit
+}
+
+body {
+  background: url('https://i0.hippopx.com/photos/695/722/391/jupiter-sky-space-planet-preview.jpg')no-repeat;
+  background-size: cover;
+}
