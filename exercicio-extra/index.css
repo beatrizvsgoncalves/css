@@ -49,23 +49,26 @@ h2 {
     text-decoration: underline;
 }
 
-#hero {
+#home {
     background: url("./img/pexels-narda-yescas-1566837.jpg");
     background-size: cover;
     min-height: 75vh;
     width: 100%;
 }
 
-.hero__foreground {
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
     color: var(--color-white);
-    padding-top: 10vh ;
+    min-height: 75vh;
+    padding-left: 1.3rem ;
+    padding-right: 1.3rem ;
 }
 
 .hero__title {
     font-family: var(--font-title);
     font-weight: 300;
     font-size: 4em;
-    margin: 1rem;
+    padding-top: 10vh ;
 }
 
 .cta-button {
@@ -87,14 +90,16 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    padding: 2rem;
+    padding: 4rem;
+}
+
+#cardapio > h2 {
+    padding-bottom: 1rem;
 }
 
 .cardapio__menu {
     margin: auto;
     max-width: 65rem;
-    padding: 2rem;
 }
 
 .cardapio__items {
@@ -123,7 +128,7 @@ h2 {
 
 #sobre {
     background: url("./img/pexels-eneida-nieves-905847.jpg") no-repeat center/cover;
-    height: 12rem;
+    max-height: 12rem;
 }
 
 .sobre__foreground {
