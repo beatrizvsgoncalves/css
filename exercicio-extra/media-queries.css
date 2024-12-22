@@ -67,3 +67,25 @@
         padding: 0;
     }
 }
+
+@media screen and (max-width: 300px) {
+    .hero__title {
+        font-size: 2.3em;
+    }
+
+    #menu {
+        padding: 1rem 0;
+    }
+
+    .menu__items {
+        min-width: 5rem;
+    }
+
+    #about {
+        max-height: 20rem ;
+    }
+
+    #contact {
+        padding: 1rem;
+    }
+}
