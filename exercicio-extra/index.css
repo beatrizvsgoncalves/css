@@ -85,7 +85,7 @@ h2 {
     color: var(--color-yellow);
 }
 
-#cardapio {
+#menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,16 +93,16 @@ h2 {
     padding: 4rem;
 }
 
-#cardapio > h2 {
+#menu > h2 {
     padding-bottom: 1rem;
 }
 
-.cardapio__menu {
+.menu__container {
     margin: auto;
     max-width: 65rem;
 }
 
-.cardapio__items {
+.menu__items {
     background-color: var(--color-grey);
     border-radius: .3rem;
     display: inline-block;
@@ -112,26 +112,26 @@ h2 {
     text-align: start;
 }
 
-.cardapio__items div {
+.menu__items div {
     padding: .8rem;
 }
 
-.cardapio__img {
+.menu__img {
     border-radius: .3rem .3rem 0 0;
     max-width: 100%;
 }
 
-.cardapio__title, .cardapio__text {
+.menu__title, .menu__text {
     font-size: .8em;
     margin-bottom: .5rem;
 }
 
-#sobre {
+#about {
     background: url("./img/pexels-eneida-nieves-905847.jpg") no-repeat center/cover;
     max-height: 12rem;
 }
 
-.sobre__foreground {
+.about__foreground {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9));
     color: var(--color-white);
     height: 100%;
@@ -139,19 +139,19 @@ h2 {
     padding: 2rem;
 }
 
-.sobre__title {
+.about__title {
     margin: .7rem 0 1.3rem 0;
 }
 
-#contato {
+#contact {
     padding: 3rem;
 }
 
-.contato__text {
+.contact__text {
     margin: 2rem auto;
 }
 
-.contato__table {
+.contact__table {
     font-size: .9em;
     display: grid;
     gap: 1rem;
@@ -163,11 +163,11 @@ h2 {
     text-align: left;
 }
 
-.contato__email {
+.contact__email {
     color: var(--color-yellow);
     text-decoration: underline;
 }
-.contato__email:hover {
+.contact__email:hover {
     color: var(--color-dark-grey);
 }
 

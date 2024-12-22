@@ -8,7 +8,7 @@
         font-size: 2.1em;
     }
     
-    .contato__table {
+    .contact__table {
         display: flex;
         flex-direction: column;
         max-width: 30rem;
@@ -41,11 +41,11 @@
         margin: auto;
     }
 
-    #cardapio {
+    #menu {
         padding: 2rem;
     }
 
-    #sobre {
+    #about {
         max-height: 15rem;
     }
 }
@@ -59,11 +59,11 @@
         font-size: 1.7em;
     }
 
-    #cardapio {
+    #menu {
         padding: 1.5rem;
     }
 
-    .cardapio__menu {
+    .menu__container {
         padding: 0;
     }
 }
